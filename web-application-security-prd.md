@@ -266,6 +266,84 @@ Create a simple tool to verify security headers on my web application:
 The tool should be implemented in [YOUR_PREFERRED_LANGUAGE] and be easy to run as part of my CI/CD process.
 ```
 
+## Recommended Security Testing Tools
+
+Use the following tools to test and verify your web application's security implementation:
+
+### Comprehensive Security Scanners
+
+| Tool | Type | Focus | URL |
+|------|------|-------|-----|
+| OWASP ZAP | Free, open-source | Automated vulnerability scanning | https://www.zaproxy.org/ |
+| Burp Suite Community | Free, limited features | Manual penetration testing | https://portswigger.net/burp/communitydownload |
+| Nmap | Free, open-source | Network vulnerability scanning | https://nmap.org/ |
+| Nikto | Free, open-source | Web server scanning | https://cirt.net/Nikto2 |
+
+### Security Headers Analysis
+
+| Tool | Type | Focus | URL |
+|------|------|-------|-----|
+| Mozilla Observatory | Free web service | Security headers and configurations | https://observatory.mozilla.org/ |
+| Security Headers | Free web service | HTTP response headers | https://securityheaders.com/ |
+| Hardenize | Free web service | TLS, HTTPS, header analysis | https://www.hardenize.com/ |
+| ImmuniWeb | Free, limited scans | Website security testing | https://www.immuniweb.com/websec/ |
+
+### Content Security Policy Tools
+
+| Tool | Type | Focus | URL |
+|------|------|-------|-----|
+| CSP Evaluator | Free web service | CSP analysis and validation | https://csp-evaluator.withgoogle.com/ |
+| Report URI | Free/Paid | CSP reporting and monitoring | https://report-uri.com/ |
+| CSP Builder | Free, open-source | CSP header generation | https://github.com/paragonie/csp-builder |
+
+### Performance and Security
+
+| Tool | Type | Focus | URL |
+|------|------|-------|-----|
+| Google PageSpeed Insights | Free web service | Performance and best practices | https://pagespeed.web.dev/ |
+| GTmetrix | Free, limited features | Performance analysis | https://gtmetrix.com/ |
+| WebPageTest | Free web service | Performance and security testing | https://www.webpagetest.org/ |
+
+### API Security Testing
+
+| Tool | Type | Focus | URL |
+|------|------|-------|-----|
+| OWASP API Security Project | Resources and guidance | API security best practices | https://owasp.org/www-project-api-security/ |
+| API Fortress | Commercial | Automated API testing | https://apifortress.com/ |
+| Postman | Free, limited features | API testing and security | https://www.postman.com/ |
+
+### Specific Vulnerability Scanners
+
+| Tool | Type | Focus | URL |
+|------|------|-------|-----|
+| Retire.js | Free, open-source | JavaScript library vulnerabilities | https://retirejs.github.io/retire.js/ |
+| Snyk | Free, limited features | Dependency vulnerabilities | https://snyk.io/ |
+| OWASP Dependency-Check | Free, open-source | Dependency vulnerabilities | https://owasp.org/www-project-dependency-check/ |
+| Trufflehog | Free, open-source | Secret scanning | https://github.com/trufflesecurity/trufflehog |
+
+### Compliance and Standards Testing
+
+| Tool | Type | Focus | URL |
+|------|------|-------|-----|
+| OWASP ASVS | Framework | Application security verification | https://owasp.org/www-project-application-security-verification-standard/ |
+| SSL Labs | Free web service | SSL/TLS configuration | https://www.ssllabs.com/ssltest/ |
+| HSTS Preload | Free web service | HSTS preload list submission | https://hstspreload.org/ |
+
+### Mobile Application Security
+
+| Tool | Type | Focus | URL |
+|------|------|-------|-----|
+| MobSF | Free, open-source | Mobile app security testing | https://github.com/MobSF/Mobile-Security-Framework-MobSF |
+| OWASP Mobile Security Testing Guide | Framework | Mobile security guidance | https://owasp.org/www-project-mobile-security-testing-guide/ |
+
+Testing Best Practices:
+1. Start with automated scanners for quick wins
+2. Use multiple tools as each may find different issues
+3. Perform regular scanning as part of your CI/CD pipeline
+4. Combine automated testing with manual review
+5. Test in both development and production environments (safely)
+6. Prioritize fixing high-severity issues first
+
 ## Conclusion
 
 These prompts provide a starting point for implementing comprehensive security measures in web applications. Remember to customize the placeholders (indicated by [SQUARE_BRACKETS]) with information specific to your application before using them.
